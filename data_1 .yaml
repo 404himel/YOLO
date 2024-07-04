@@ -1,0 +1,7 @@
+#Himel
+train: /content/yolo_data/images/train  
+val: /content/yolo_data/images/val 
+
+# Classes
+nc: 2  # number of classes
+names: ['player','football']  # class names
