@@ -9,6 +9,7 @@ cap.set(4,1000)
 #cap = cv2.VideoCapture("Videos/1.mp4")
 model = YOLO("yolov8n.pt")
 
+#coco dataset
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
               "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat",
               "dog", "horse", "sheep", "cow", "elephant", "bear", "zebra", "giraffe", "backpack", "umbrella",
